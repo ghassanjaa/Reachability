@@ -13,6 +13,7 @@
 		F5BB0C002369A86A001BD52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB0BFE2369A86A001BD52E /* Main.storyboard */; };
 		F5BB0C022369A86D001BD52E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BB0C012369A86D001BD52E /* Assets.xcassets */; };
 		F5BB0C052369A86D001BD52E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB0C032369A86D001BD52E /* LaunchScreen.storyboard */; };
+		F5BB0C0D2369A896001BD52E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BB0C0C2369A896001BD52E /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F5BB0C012369A86D001BD52E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5BB0C042369A86D001BD52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5BB0C062369A86D001BD52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BB0C0C2369A896001BD52E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F5BB0BF72369A869001BD52E /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
+				F5BB0C0C2369A896001BD52E /* Reachability.swift */,
 				F5BB0BF82369A869001BD52E /* AppDelegate.swift */,
 				F5BB0BFA2369A869001BD52E /* SceneDelegate.swift */,
 				F5BB0BFC2369A869001BD52E /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				F5BB0BFD2369A869001BD52E /* ViewController.swift in Sources */,
 				F5BB0BF92369A869001BD52E /* AppDelegate.swift in Sources */,
+				F5BB0C0D2369A896001BD52E /* Reachability.swift in Sources */,
 				F5BB0BFB2369A869001BD52E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 767D687EFN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Reachability/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 767D687EFN;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Reachability/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
